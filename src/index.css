@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 75%;
+}
+
+body {
+  color: #444;
+  background: #eee;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 1.6rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+}

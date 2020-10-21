@@ -1,0 +1,82 @@
+.jokelist-sidebar {
+  background: #ffd764;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  text-align: center;
+  z-index: 2;
+  border-radius: 15px;
+}
+
+.jokelist-sidebar img {
+  width: 40%;
+  border-radius: 50%;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);
+  margin: 0 auto 4rem;
+}
+.jokelist-sidebar img:hover {
+  animation-name: shake-slow;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+}
+
+.jokelist-getmore {
+  font-size: 1.5rem;
+  width: 50%;
+  border-radius: 2rem;
+  padding: 1rem 2rem;
+  color: white;
+  font-weight: 700;
+  margin: 2rem;
+  border: none;
+  word-spacing: 0.2rem;
+  cursor: pointer;
+  transition: 0.8s cubic-bezier(0.2, 1, 0.2, 1);
+  outline: none;
+  background: #01b4dc;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);
+}
+
+.jokelist-getmore:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+}
+
+@keyframes shake-slow {
+  0% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+  10% {
+    transform: translate(5px, -5px) rotate(0.5deg);
+  }
+  20% {
+    transform: translate(-8px, 7px) rotate(-1.5deg);
+  }
+  30% {
+    transform: translate(-8px, 5px) rotate(3.5deg);
+  }
+  40% {
+    transform: translate(6px, 10px) rotate(-1.5deg);
+  }
+  50% {
+    transform: translate(-9px, -3px) rotate(-1.5deg);
+  }
+  60% {
+    transform: translate(9px, -4px) rotate(-1.5deg);
+  }
+  70% {
+    transform: translate(3px, 4px) rotate(1.5deg);
+  }
+  80% {
+    transform: translate(-9px, -4px) rotate(0.5deg);
+  }
+  90% {
+    transform: translate(5px, 7px) rotate(2.5deg);
+  }
+  100% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+}
